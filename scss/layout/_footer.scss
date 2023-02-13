@@ -168,3 +168,69 @@
         color: white;
     }
 }
+
+@media (max-width: 400px) {
+    .footer {
+        .f-links {
+            img {
+            }
+            .list-footer {
+                li {
+                    a {
+                    }
+                    &:hover {
+                    }
+                }
+            }
+        }
+        .f-redes {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            gap: 50px;
+            label {
+            }
+            .f-redes-icons {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                place-items: center;
+                text-align: center;
+                gap: 40px;
+                svg {
+                    height: 25px;
+                    color: white;
+                }
+            }
+        }
+        .f-newslatter {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            label {
+                font-size: 23px;
+                color: white;
+            }
+            input {
+                padding: 3px;
+                width: 100%;
+                border-radius: 15px;
+            }
+            button {
+                background-color: white;
+                color: black;
+                border-radius: 20px;
+                height: 40px;
+                width: 25%;
+            }
+        }
+    }
+    .copyrigth {
+        text-align: center;
+        padding: 5px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+}

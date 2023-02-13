@@ -129,14 +129,14 @@
 @media (max-width: 444px) {
     .container-marcas {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         grid-gap: 10px;
         padding: 5px;
         img {
             border-radius: 15px;
-            height: 65px;
-            width: 80%;
+            height: 75px;
+            width: 100%;
         }
     }
 }
