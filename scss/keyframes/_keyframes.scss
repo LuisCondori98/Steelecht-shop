@@ -1,0 +1,42 @@
+@keyframes slide {
+    0% {
+        // top: 0px;
+        margin-bottom: 500px;
+    }
+}
+
+@keyframes zoomGm {
+    0% {
+        transform: scale(0.6);
+    }
+    25% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+}
+
+@keyframes zoomGs {
+    0% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes zoomG {
+    0% {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes zoomGd {
+    0% {
+        transform: scale(1.7);
+    }
+}
+
+@keyframes left-rigth {
+    0%{
+        margin-right: 500px;
+    }
+}

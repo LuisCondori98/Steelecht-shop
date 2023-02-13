@@ -1,0 +1,148 @@
+@media (min-width: 1200px) {
+    .container-navbar {
+        .navbar {
+            .container-fluid {
+                .collapse {
+                    display: flex;
+                    justify-content: center;
+                    .navbar-nav {
+                        animation: left-rigth 1s;
+                        gap: 50px;
+                        .nav-item {
+                            .nav-link {
+                                color: white;
+                                &:hover{
+                                    color: black;
+                                }
+                            }
+                            .active {
+                                text-decoration: overline;
+                                font-weight: 500;
+                            }
+                            &:hover {
+                                background-color: white;
+                                text-decoration: overline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container-navbar {
+        .navbar {
+            .container-fluid {
+                .collapse {
+                    display: flex;
+                    justify-content: center;
+                    .navbar-nav {
+                        gap: 50px;
+                        .nav-item {
+                            .nav-link {
+                                color: white;
+                            }
+                            .active {
+                                text-decoration: overline;
+                                font-weight: 500;
+                            }
+                            &:hover {
+                                background-color: white;
+                                text-decoration: overline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 720px) and (max-width: 992px) {
+    .container-navbar {
+        .navbar {
+            text-align: center;
+            color: white;
+            .container-fluid {
+                .navbar-toggler {
+                    background-color: white;
+                    .navbar-toggler-icon {
+                    }
+                }
+                .collapse {
+                    .navbar-nav {
+                        .nav-item {
+                            .nav-link {
+                                color: white;
+                            }
+                            .active {
+                                text-decoration: overline;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 480px) and (max-width: 720px) {
+    .container-navbar {
+        .navbar {
+            text-align: center;
+            color: white;
+            .container-fluid {
+                .navbar-toggler {
+                    background-color: white;
+                    .navbar-toggler-icon {
+                    }
+                }
+                .collapse {
+                    .navbar-nav {
+                        .nav-item {
+                            .nav-link {
+                                color: white;
+                            }
+                            .active {
+                                text-decoration: overline;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .container-navbar {
+        .navbar {
+            text-align: center;
+            color: white;
+            .container-fluid {
+                .navbar-toggler {
+                    background-color: white;
+                    .navbar-toggler-icon {
+                    }
+                }
+                .collapse {
+                    .navbar-nav {
+                        .nav-item {
+                            .nav-link {
+                                color: white;
+                            }
+                            .active {
+                                text-decoration: overline;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

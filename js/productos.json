@@ -1,0 +1,134 @@
+[
+    {
+        "id": "1",
+        "img": "/img/catalina-shimano.jpg",
+        "nombre" : "Catalina Shimano",
+        "precio": "S/. 220"
+    },
+    {
+        "id": "2",
+        "img": "/img/trek-gravel.webp",
+        "nombre" : "Gravel 5",
+        "precio": "S/. 4 500"
+    },
+    {
+        "id": "3",
+        "img": "/img/pedal-rockbros.jpg",
+        "nombre" : "Pedal Rockbros",
+        "precio": "S/. 180"
+    },
+    {
+        "id": "4",
+        "img": "/img/bici-trek-marlin-8.webp",
+        "nombre" : "Marlin 8",
+        "precio": "S/. 3 800"
+    },
+    {
+        "id": "5",
+        "img": "/img/desviador-deore.jpg",
+        "nombre" : "Desviador Deore",
+        "precio": "S/. 290"
+    },
+    {
+        "id": "6",
+        "img": "/img/bici-trek-marlin-4.webp",
+        "nombre" : "Marlin 4",
+        "precio": "S/. 3 200"
+    },
+    {
+        "id": "7",
+        "img": "/img/caliper-mecanico.jpg",
+        "nombre" : "Caliper Mecanico",
+        "precio": "S/. 120"
+    },
+    {
+        "id": "8",
+        "img": "/img/bicicleta-trek-marlin-7.jpg",
+        "nombre" : "Marlin 7",
+        "precio": "S/. 4 200"
+    },
+    {
+        "id": "9",
+        "img": "/img/trek-gravel-2.webp",
+        "nombre" : "Gravel",
+        "precio": "S/. 4 500"
+    },
+    {
+        "id": "10",
+        "img": "/img/trek-gravel-3.jpg",
+        "nombre" : "Gravel",
+        "precio": "S/ 4 800"
+    },
+    {
+        "id": "11",
+        "img": "/img/casco-cairbull.webp",
+        "nombre" : "Casco Cairbull",
+        "precio": "S/ 280"
+    },
+    {
+        "id": "12",
+        "img": "/img/Trek-Marlin-5-.jpg",
+        "nombre" : "Marlin 5",
+        "precio": "S/. 3 600"
+    },
+    {
+        "id": "13",
+        "img": "/img/bicicleta-sunpeed.png",
+        "nombre" : "Sunpeed",
+        "precio": "S/. 2 299"
+    },
+    {
+        "id": "14",
+        "img": "/img/shifter-tlwoo.jpg",
+        "nombre" : "Shifter A3 l-twoo",
+        "precio": "S/. 180"
+    },
+    {
+        "id": "15",
+        "img": "/img/bicicleta-trinx.jpg",
+        "nombre" : "Trinx",
+        "precio": "S/. 3 200"
+    },
+    {
+        "id": "16",
+        "img": "/img/bicicleta-giant.jpg",
+        "nombre" : "Giant montañera",
+        "precio": "S/. 2 800"
+    },
+    {
+        "id": "17",
+        "img": "/img/descarrilador-shimano-altus.jpg",
+        "nombre" : "Descarrilador altus",
+        "precio": "S/. 250"
+    },
+    {
+        "id": "18",
+        "img": "/img/desviador-deore.jpg",
+        "nombre" : "Desviador Deore",
+        "precio": "S/. 290"
+    },
+    {
+        "id": "19",
+        "img": "/img/bicicleta-specialized.jpeg",
+        "nombre" : "Bicicleta specialized",
+        "precio": "S/. 4 590"
+    },
+    {
+        "id": "20",
+        "img": "/img/luz-bicicleta.jpg",
+        "nombre" : "Luz delantera Rockbros",
+        "precio": "S/. 160"
+    },
+    {
+        "id": "21",
+        "img": "/img/camara-cst.jpg",
+        "nombre" : "Camaras Cst",
+        "precio": "S/. 80"
+    },
+    {
+        "id": "22",
+        "img": "/img/llantas-maxxis.webp",
+        "nombre" : "Llantas maxxis",
+        "precio": "S/. 80"
+    }
+]

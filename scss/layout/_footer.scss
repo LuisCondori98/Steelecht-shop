@@ -1,0 +1,170 @@
+@media (min-width: 1200px) {
+    .footer {
+        background: linear-gradient(180deg, hsl(33, 100%, 89%), 70%, rgb(59, 59, 59));
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        .f-links {
+            display: flex;
+            flex-direction: column;
+            line-height: 30px;
+            gap: 50px;
+            img {
+                height: 200px;
+                width: 250px;
+            }
+            .list-footer {
+                li {
+                    a {
+                        font-size: 18px;
+                        color: rgb(0, 0, 0);
+                    }
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .f-redes {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            width: 500px;
+            gap: 50px;
+            label {
+                font-size: 22px;
+                color: rgb(0, 0, 0);
+            }
+            .f-redes-icons {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                gap: 40px;
+                svg {
+                    height: 35px;
+                    color: rgb(0, 0, 0);
+                    &:hover {
+                        transform: scale(1.2);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .f-newslatter {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            label {
+                font-size: 23px;
+                color: rgb(0, 0, 0);
+            }
+            input {
+                padding: 3px;
+                width: 350px;
+                border-radius: 15px;
+            }
+            button {
+                background-color: black;
+                color: white;
+                border-radius: 20px;
+                height: 40px;
+                width: 25%;
+                &:hover {
+                    background-color: white;
+                    color: black;
+                }
+            }
+        }
+    }
+    .copyrigth {
+        text-align: center;
+        padding: 5px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        background: linear-gradient(360deg, black, 65%, white);
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        .f-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            line-height: 30px;
+            gap: 50px;
+            img {
+                height: 200px;
+                width: 250px;
+            }
+            .list-footer {
+                li {
+                    a {
+                        font-size: 18px;
+                        color: rgb(255, 255, 255);
+                    }
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .f-redes {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            gap: 50px;
+            label {
+                font-size: 22px;
+                color: white;
+            }
+            .f-redes-icons {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                gap: 40px;
+                svg {
+                    height: 30px;
+                    color: white;
+                }
+            }
+        }
+        .f-newslatter {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            label {
+                font-size: 23px;
+                color: white;
+            }
+            input {
+                padding: 3px;
+                width: 350px;
+                border-radius: 15px;
+            }
+            button {
+                background-color: white;
+                color: black;
+                border-radius: 20px;
+                height: 40px;
+                width: 18%;
+            }
+        }
+    }
+    .copyrigth {
+        text-align: center;
+        padding: 5px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+}

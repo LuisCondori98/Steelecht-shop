@@ -1,0 +1,27 @@
+@media (min-width: 1200px) {
+    .container-logo {
+        background-color: hsl(33, 100%, 89%);
+        background: linear-gradient(180deg, hsl(33, 100%, 89%), 90%, rgb(59, 59, 59));
+        padding: 15px;
+        display: grid;
+        place-items: center;
+        img {
+            height: 210px;
+            position: relative;
+            animation: zoomG 2s;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .container-logo {
+        background-color: hsl(33, 100%, 89%);
+        background: linear-gradient(180deg, hsl(33, 100%, 89%), 90%, rgb(59, 59, 59));
+        padding: 15px;
+        display: grid;
+        place-items: center;
+        img {
+            height: 150px;
+        }
+    }
+}

@@ -1,0 +1,190 @@
+@media (min-width: 1200px) {
+    .filtros {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 70px;
+        padding: 25px;
+        .container-buscador {
+            width: 800px;
+            text-align: center;
+            input {
+                padding: 5px;
+                width: 80%;
+                border-radius: 15px;
+            }
+            .filtro {
+                height: 35px;
+                cursor: pointer;
+                &:hover {
+                    color: rgb(167, 0, 0);
+                    border: white ridge;
+                }
+            }
+        }
+        .select-filtro {
+            position: absolute;
+            background-color: white;
+            color: black;
+            text-align: center;
+            margin-left: 640px;
+            li {
+                padding: 15px;
+                font-weight: 600;
+                cursor: pointer;
+                &:hover {
+                    background-color: rgb(0, 169, 202);
+                    color:white;
+                }
+            }
+        }
+        .icarrito {
+            cursor: pointer;
+        }
+    }
+    .container-productos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 30px;
+        padding: 20px;
+        text-align: center;
+        .item-producto {
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            border-radius: 10px;
+            img {
+                border-radius: 10px;
+                object-fit: cover;
+                height: 310px;
+                width: 100%;
+                background-color: rgb(255, 255, 255);
+                &:hover {
+                    transform: scale(0.999);
+                    object-fit: contain;
+                }
+            }
+            svg {
+                position: absolute;
+                height: 20px;
+            }
+            .descripcion {
+                padding: 15px;
+                button {
+                    padding: 4px;
+                    border-radius: 15px;
+                    background-color: black;
+                    color: white;
+                    &:hover {
+                        background-color: white;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .container-productos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 25px;
+        padding: 20px;
+        text-align: center;
+        .item-producto {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 10px;
+            img {
+                border-radius: 10px;
+                object-fit: cover;
+                height: 250px;
+                width: 100%;
+            }
+            svg {
+                position: absolute;
+                height: 20px;
+            }
+            .descripcion{
+                padding: 5px;
+                button {
+                    padding: 4px;
+                    border-radius: 15px;
+                    background-color: black;
+                    color: white;
+                    &:hover {
+                        background-color: white;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .filtros {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 70px;
+        padding: 10px;
+        .container-buscador {
+            width: 800px;
+            text-align: center;
+            input {
+                padding: 5px;
+                width: 80%;
+                border-radius: 15px;
+            }
+            .filtro {
+                height: 35px;
+            }
+        }
+        .select-filtro {
+            position: absolute;
+            background-color: white;
+            color: black;
+            text-align: center;
+            margin-left: 25vh;
+            li {
+                padding: 15px;
+                font-weight: 600;
+            }
+        }
+        .icarrito {
+            height: 60px;
+            width: 60px;
+        }
+    }
+    .container-productos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 15px;
+        padding: 10px;
+        text-align: center;
+        .item-producto {
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            border-radius: 10px;
+            img {
+                border-radius: 10px;
+                object-fit: cover;
+                height: 200px;
+                width: 100%;
+            }
+            svg {
+                position: absolute;
+                height: 20px;
+            }
+            .descripcion {
+                padding: 15px;
+                button {
+                    padding: 4px;
+                    border-radius: 15px;
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+    }
+}
