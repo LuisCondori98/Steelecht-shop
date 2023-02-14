@@ -177,6 +177,28 @@ a {
     height: 80px;
     width: 60px;
   }
+  .container-carousel-servicios .carousel {
+    margin: auto;
+    width: 80%;
+  }
+  .container-carousel-servicios .carousel .carousel-indicators {
+    gap: 25px;
+  }
+  .container-carousel-servicios .carousel .carousel-indicators button {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+  }
+  .container-carousel-servicios .carousel .carousel-inner .carousel-item img {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .container-carousel-servicios .carousel .carousel-inner .carousel-item .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.859);
+    width: 480px;
+    margin: auto;
+  }
 }
 @media (max-width: 480px) {
   .container-carousel {
@@ -205,8 +227,8 @@ a {
     background-color: hsl(33deg, 100%, 89%);
     background: linear-gradient(180deg, hsl(33deg, 100%, 89%), 90%, rgb(59, 59, 59));
     padding: 15px;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
   }
   .container-logo img {
     height: 210px;
@@ -757,7 +779,7 @@ a {
     color: white;
   }
 }
-@media (max-width: 436px) {
+@media (max-width: 410px) {
   .container-productos {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

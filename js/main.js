@@ -16,6 +16,7 @@ fetch("/js/productos.json")
                 <button type="submit" class="btn-agregar">Agregar</button>
             </div>
             `
+
             producto.append(divProd);
         }
         
@@ -76,7 +77,6 @@ filtro.addEventListener("focus", () => {
     <li>Menor precio</li>
     <li>Destacados</li>
     `
-
     containerFiltro.append(select);
 
     filtro.addEventListener("blur", () => {
