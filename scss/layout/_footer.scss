@@ -89,7 +89,7 @@
 
 @media (max-width: 480px) {
     .footer {
-        background: linear-gradient(360deg, black, 65%, white);
+        background: linear-gradient(180deg, hsl(33, 100%, 89%), 70%, rgb(59, 59, 59));
         display: flex;
         flex-direction: column;
         gap: 25px;

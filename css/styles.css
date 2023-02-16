@@ -334,7 +334,7 @@ a {
 }
 @media (max-width: 480px) {
   .footer {
-    background: linear-gradient(360deg, black, 65%, white);
+    background: linear-gradient(180deg, hsl(33deg, 100%, 89%), 70%, rgb(59, 59, 59));
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -666,6 +666,9 @@ a {
   .container-productos .item-producto .descripcion {
     padding: 15px;
   }
+  .container-productos .item-producto .descripcion h5 {
+    font-size: 18px;
+  }
   .container-productos .item-producto .descripcion button {
     padding: 4px;
     border-radius: 15px;
@@ -743,10 +746,6 @@ a {
   .filtros .select-filtro li {
     padding: 15px;
     font-weight: 600;
-  }
-  .filtros .icarrito {
-    height: 60px;
-    width: 60px;
   }
   .container-productos {
     display: grid;

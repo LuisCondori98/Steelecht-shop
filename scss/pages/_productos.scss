@@ -68,6 +68,12 @@
             }
             .descripcion {
                 padding: 15px;
+                h4 {
+
+                }
+                h5 {
+                    font-size: 18px;
+                }
                 button {
                     padding: 4px;
                     border-radius: 15px;
@@ -150,10 +156,10 @@
                 font-weight: 600;
             }
         }
-        .icarrito {
-            height: 60px;
-            width: 60px;
-        }
+        // .icarrito {
+        //     height: 20px;
+        //     width: 20px;
+        // }
     }
     .container-productos {
         display: grid;
